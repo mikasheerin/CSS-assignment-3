@@ -118,7 +118,8 @@ aside a:hover {
 /* put your media queries below */
 
 @media (max-width: 700px) {
-  body { background: #000
+  body {
+    background: #000;
   }
 
   article {
@@ -131,7 +132,7 @@ aside a:hover {
   }
 
   img { display: none;
-   }
+  }
 
   #top-image-container { display: none;
   }
