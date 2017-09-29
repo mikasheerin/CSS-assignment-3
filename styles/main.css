@@ -5,8 +5,9 @@
 body {
   background: #b3dbe8;
   color: #000;
-  font-family: sans-serif; /*   add fonts   */
+  font-family: 'Hind Siliguri', Tahoma, sans-serif; /*   add fonts   */
 }
+
 
 
 /*  #container div (below) wraps all content _below_ the image
@@ -47,7 +48,7 @@ aside {
 
 h1, h2 {
   margin: 0;
-  font-family: serif; /*   add fonts   */
+  font-family: 'Fauna One', Georgia, serif; /*   add fonts   */
 }
 
 article h1 {
@@ -115,3 +116,33 @@ aside a:hover {
 
 
 /* put your media queries below */
+
+@media (max-width: 700px) {
+  body { width: 100%;
+    margin: 0;
+    background: #000
+  }
+
+  article {
+    width: 100%;
+    margin: 0;
+  }
+
+  aside {
+    width: 100%;
+    margin: 0;
+  }
+
+  img { display: none;
+   }
+
+  #top-image-container { display: none;
+  }
+
+  #container { margin: 0;
+  }
+
+  #sidebar2 { margin: 0;
+  }
+
+}
